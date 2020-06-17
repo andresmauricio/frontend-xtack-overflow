@@ -23,7 +23,7 @@
   <h3>Respuestas</h3>
   <ul class="answers-list" *ngIf="question.answers.length > 0">
     <li *ngFor="let answer of question.answers"> 
-      <h5>{{answer.user.firstName}} {{answer.user.lastName}}
+      <h5>{{ answer.user.fullName() }}
         <small>{{answer.createdAt}}</small>
       </h5>
       <p class="description">
