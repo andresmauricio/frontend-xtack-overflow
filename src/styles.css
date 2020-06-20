@@ -9,6 +9,14 @@ body {
   color: white;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 40px auto;
+  margin-top: 20px;
+}
+
 .space {
   flex: 1 1 auto;
 }

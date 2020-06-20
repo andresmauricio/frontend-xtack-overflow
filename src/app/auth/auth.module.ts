@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { MaterialModule } from '../material.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 
 @NgModule({
-  declarations: [SignInComponent],
-  exports: [SignInComponent],
+  declarations: [SignInComponent, SignUpComponent],
+  exports: [SignInComponent, SignUpComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
