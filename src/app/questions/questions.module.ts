@@ -7,6 +7,7 @@ import { AnswerFormComponent } from './answer-form/answer-form.component';
 import { FormsModule } from '@angular/forms';
 import { QuestionListComponent } from './question-list/question-list.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
+import { QuestionRoutingModule } from './questions-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,17 @@ import { QuestionFormComponent } from './question-form/question-form.component';
     QuestionListComponent,
     QuestionFormComponent,
   ],
-  imports: [CommonModule, FormsModule, MaterialModule, MomentModule],
-  exports: [QuestionDetailComponent, QuestionListComponent, QuestionFormComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    MaterialModule,
+    MomentModule,
+    QuestionRoutingModule,
+  ],
+  exports: [
+    QuestionDetailComponent,
+    QuestionListComponent,
+    QuestionFormComponent,
+  ],
 })
 export class QuestionsModule {}

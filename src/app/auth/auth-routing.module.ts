@@ -6,7 +6,6 @@ import { SignInComponent } from './sign-in/sign-in.component';
 const routes: Routes = [
   { path: 'registro', component: SignUpComponent },
   { path: 'iniciar-sesion', component: SignInComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
