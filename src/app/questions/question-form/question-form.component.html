@@ -1,5 +1,5 @@
 <form (ngSubmit)="onSumbmit(f)" #f="ngForm">
-        <mat-form-field appearance="outline">
+        <mat-form-field color="accent" appearance="outline">
           <mat-label>Titulo</mat-label>
             <input   matInput 
                         placeholder="El titulo de tu pregunta"
@@ -7,7 +7,7 @@
                         ngModel
          />
         </mat-form-field>
-        <mat-form-field appearance="outline">
+        <mat-form-field color="accent" appearance="outline">
             <mat-label>Descripcion</mat-label>
               <input   matInput 
                           placeholder="Descripción tu pregunta"
@@ -15,5 +15,10 @@
                           ngModel
            />
           </mat-form-field>
+          <mat-grid-list cols="3" rowHeight="3:2">
+              <mat-grid-tile *ngFor="let icon of icons">
+                 <i class="devicon-{{icon.name}}-{{getVerifyIcon(icon)}} icon-size"></i>
+              </mat-grid-tile>
+            </mat-grid-list>
     <button mat-raised-button color="accent" type="submit">Enviar</button>
 </form>

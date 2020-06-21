@@ -1,4 +1,4 @@
-export default [
+export const icons = [
     {
         "name": "amazonwebservices",
         "tags": [
@@ -163,25 +163,6 @@ export default [
         }
     },
     {
-        "name": "behance",
-        "tags": [
-            "social",
-            "website"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
         "name": "bitbucket",
         "tags": [
             
@@ -257,41 +238,6 @@ export default [
         }
     },
     {
-        "name": "cakephp",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "ceylon",
-        "tags": [
-            "language"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain"
-            ]
-        }
-    },
-    {
         "name": "chrome",
         "tags": [
             "browser"
@@ -306,37 +252,6 @@ export default [
             "font": [
                 "plain",
                 "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "clojure",
-        "tags": [
-            "language"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "line",
-                "plain"
-            ],
-            "font": [
-                
-            ]
-        }
-    },
-    {
-        "name": "clojurescript",
-        "tags": [
-            "language"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "plain"
-            ],
-            "font": [
-                
             ]
         }
     },
@@ -383,24 +298,6 @@ export default [
             "svg": [
                 "original",
                 "original-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "couchdb",
-        "tags": [
-            "database"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
             ],
             "font": [
                 "plain",
@@ -626,54 +523,6 @@ export default [
             "font": [
                 "plain",
                 "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "electron",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark"
-            ],
-            "font": [
-                "original",
-                "original-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "elm",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "ember",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original-wordmark"
-            ],
-            "font": [
-                "original-wordmark"
             ]
         }
     },
@@ -939,22 +788,6 @@ export default [
         }
     },
     {
-        "name": "handlebars",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
         "name": "heroku",
         "tags": [
             "cloud"
@@ -1060,22 +893,6 @@ export default [
             "font": [
                 "plain",
                 "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "ionic",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark"
-            ],
-            "font": [
-                "original",
-                "original-wordmark"
             ]
         }
     },
@@ -1238,25 +1055,6 @@ export default [
         }
     },
     {
-        "name": "linkedin",
-        "tags": [
-            "social",
-            "auth"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
         "name": "linux",
         "tags": [
             "os"
@@ -1413,21 +1211,6 @@ export default [
                 "plain-wordmark",
                 "line",
                 "line-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "npm",
-        "tags": [
-            "package",
-            "manager"
-        ],
-        "versions": {
-            "svg": [
-                "original-wordmark"
-            ],
-            "font": [
-                "original-wordmark"
             ]
         }
     },
@@ -1639,17 +1422,6 @@ export default [
         }
     },
     {
-        "name": "redux",
-        "tags": [
-            "framework"
-        ],
-        "versions": {
-            "svg": [
-                "original"
-            ]
-        }
-    },
-    {
         "name": "ruby",
         "tags": [
             "programming",
@@ -1743,24 +1515,6 @@ export default [
         }
     },
     {
-        "name": "sketch",
-        "tags": [
-            "application"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "line",
-                "line-wordmark"
-            ],
-            "font": [
-                "line",
-                "line-wordmark"
-            ]
-        }
-    },
-    {
         "name": "slack",
         "tags": [
             "chat"
@@ -1807,21 +1561,6 @@ export default [
             "font": [
                 "plain",
                 "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "stylus",
-        "tags": [
-            "css",
-            "pre-processor"
-        ],
-        "versions": {
-            "svg": [
-                "original"
-            ],
-            "font": [
-                "original"
             ]
         }
     },
@@ -1958,24 +1697,6 @@ export default [
         }
     },
     {
-        "name": "vagrant",
-        "tags": [
-            "platform"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark",
-                "plain",
-                "plain-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
         "name": "vim",
         "tags": [
             "editor"
@@ -2099,23 +1820,6 @@ export default [
         }
     },
     {
-        "name": "yarn",
-        "tags": [
-            "package",
-            "manager"
-        ],
-        "versions": {
-            "svg": [
-                "original",
-                "original-wordmark"
-            ],
-            "font": [
-                "plain",
-                "plain-wordmark"
-            ]
-        }
-    },
-    {
         "name": "yii",
         "tags": [
             "php",
@@ -2131,20 +1835,6 @@ export default [
             "font": [
                 "plain",
                 "plain-wordmark"
-            ]
-        }
-    },
-    {
-        "name": "yunohost",
-        "tags": [
-            "os"
-        ],
-        "versions": {
-            "svg": [
-                "original"
-            ],
-            "font": [
-                
             ]
         }
     },
