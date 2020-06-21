@@ -6,15 +6,16 @@ import { MomentModule } from 'angular2-moment';
 import { AnswerFormComponent } from './answer-form/answer-form.component';
 import { FormsModule } from '@angular/forms';
 import { QuestionListComponent } from './question-list/question-list.component';
+import { QuestionFormComponent } from './question-form/question-form.component';
 
 @NgModule({
-  declarations: [QuestionDetailComponent, AnswerFormComponent, QuestionListComponent],
-  imports: [
-    CommonModule,
-    FormsModule,
-    MaterialModule,
-    MomentModule
+  declarations: [
+    QuestionDetailComponent,
+    AnswerFormComponent,
+    QuestionListComponent,
+    QuestionFormComponent,
   ],
-  exports: [QuestionDetailComponent, QuestionListComponent]
+  imports: [CommonModule, FormsModule, MaterialModule, MomentModule],
+  exports: [QuestionDetailComponent, QuestionListComponent, QuestionFormComponent],
 })
-export class QuestionsModule { }
+export class QuestionsModule {}
