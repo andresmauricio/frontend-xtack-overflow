@@ -1,4 +1,5 @@
 <form autocomplete="off" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <h1 style="text-align: center;">Registro</h1>
     <mat-form-field  appearance="outline">
         <mat-label>Nombre</mat-label>
           <input    matInput 
@@ -32,4 +33,7 @@
           />
       </mat-form-field>
       <button  mat-raised-button color="accent" type="submit">Registrar</button>
+      <p style="text-align: center; margin-top: 15px;">Ya tienes cuenta
+        <a routerLink="/iniciar-sesion" mat-button color="accent" >Iniciar Sesión</a>
+      </p>
 </form>

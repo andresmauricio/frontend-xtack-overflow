@@ -1,4 +1,5 @@
 <form autocomplete="off" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <h1 style="text-align: center;">Iniciar sesión</h1>
     <mat-form-field  appearance="outline">
         <mat-label>Email</mat-label>
           <input    matInput 
@@ -16,4 +17,7 @@
           />
       </mat-form-field>
       <button  mat-raised-button color="accent" type="submit">Enviar</button>
+      <p style="text-align: center; margin-top: 15px;">No tienes cuenta
+        <a routerLink="/registro" mat-button color="accent" >Crear Cuenta</a>
+      </p>
 </form>
