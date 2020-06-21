@@ -20,3 +20,8 @@ form {
 .space {
   flex: 1 1 auto;
 }
+
+.form_account{
+  height: 80vh;
+    justify-content: center;
+}

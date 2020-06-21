@@ -10,7 +10,7 @@
       <small
         >Andrés Mauricio -
         <!-- {{ question.createdAt | amLocale: "es" | amTimeAgo   }}</small -->
-        {{ question.createdAt  }}</small
+        {{ question.createdAt | date }}</small
       >
     </mat-card-subtitle>
   </mat-card-header>
@@ -24,7 +24,7 @@
   <ul class="answers-list" *ngIf="question.answers.length > 0">
     <li *ngFor="let answer of question.answers"> 
       <h5>{{ answer.user.fullName() }}
-        <small>{{answer.createdAt}}</small>
+        <small>{{answer.createdAt | date}}</small>
       </h5>
       <p class="description">
         {{answer.description}}
