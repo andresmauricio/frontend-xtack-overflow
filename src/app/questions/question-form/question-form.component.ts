@@ -26,8 +26,8 @@ export class QuestionFormComponent implements OnInit {
   }
 
   public onSumbmit(form: NgForm): void {
-    const { title, description } = form.value;
-    const q = new Question(title, description);
+    const { title, description, iconName } = form.value;
+    const q = new Question(title, description, new Date(), iconName);
     console.log(q);
   }
 
