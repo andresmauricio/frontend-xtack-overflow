@@ -4,6 +4,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { MaterialModule } from '../material.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { AuthRoutingModule } from './auth-routing.module';
 
 
 
@@ -13,7 +14,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    AuthRoutingModule
   ]
 })
 export class AuthModule { }
