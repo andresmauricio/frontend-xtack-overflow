@@ -3,4 +3,5 @@
     bottom: 30px;
     right: 30px;
     font-size: 40px;
+    z-index: 1;
 }

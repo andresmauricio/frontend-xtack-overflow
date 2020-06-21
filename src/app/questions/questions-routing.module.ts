@@ -7,8 +7,8 @@ import { QuestionFormComponent } from './question-form/question-form.component';
 
 const routes: Routes = [
   { path: '', component: QuestionListComponent },
-  { path: ':id', component: QuestionDetailComponent },
   { path: 'new', component: QuestionFormComponent },
+  { path: ':id', component: QuestionDetailComponent },
 //   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
